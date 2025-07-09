@@ -71,6 +71,14 @@ server {
 
 ---
 
+mysqld --console
+mysqld -u root
+cd C:\Users\rofiq\Downloads\webserver\php7.3
+start php-cgi.exe -b 127.0.0.1:9000
+
+cd C:\Users\rofiq\Downloads\webserver\nginx
+start nginx.exe
+
 ## ✅ Status Akhir
 Semua berjalan dengan sukses:
 - ✔️ MySQL aktif
